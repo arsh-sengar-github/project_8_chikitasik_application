@@ -1,0 +1,42 @@
+# Virtual environment
+project_8_virtual_environment*/
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Jupyter & notebooks
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs & temp files
+*.log
+*.tmp
+
+# Streamlit cache
+.streamlit/
+.streamlit/secrets.toml
+
+# Model and data files (optional – if large or sensitive)
+project_8_model/
+*.sav
+*.h5
+*.joblib
+
+# Environment variables
+.env
