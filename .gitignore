@@ -9,8 +9,9 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.pkl
-*.pickle
+# Keep pickle files for models you want to version
+# *.pkl
+# *.pickle
 
 # Jupyter & notebooks
 .ipynb_checkpoints
@@ -33,10 +34,11 @@ Thumbs.db
 .streamlit/secrets.toml
 
 # Model and data files (optional – if large or sensitive)
-project_8_model/
-*.sav
-*.h5
-*.joblib
+# Commented out to allow versioning of your trained model
+# project_8_model/
+# *.sav
+# *.h5
+# *.joblib
 
 # Environment variables
 .env
